@@ -1,6 +1,11 @@
 
-Feynman Caltech Lecture (The rats in mazes one).
-------------------------------------------------
+Feynman Caltech Lecture (The rats in mazes one) on You Tube.
+------------------------------------------------------------
 
 https://www.themarginalian.org/2012/06/08/richard-feynman-caltech-cargo-cult-science/
+
+Feynman Caltech Lecture (The rats in mazes one) - text of the talk.
+------------------------------------------------------------------
+
+https://sites.cs.ucsb.edu/~ravenben/cargocult.html
 
