@@ -5,6 +5,7 @@
 
 # First Working Paper
 Paper title: Active Change-Point Detection
+
 Paper Authors: Shogo Hayashi, Yoshinobu Kawahara, Hisashi Kashima
 
 ## Progress timeline
