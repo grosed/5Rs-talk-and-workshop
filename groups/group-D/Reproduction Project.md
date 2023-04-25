@@ -35,7 +35,7 @@ Paper Authors: Shogo Hayashi, Yoshinobu Kawahara, Hisashi Kashima
 * The class "ActiveChangePointDetection0" doesn't perform any of the methods outlined in the orginal paper.
 * The class "ActiveChangePointDetection" required the unprovided packages, and requires a specific data structure that does not follow the provided data. We hypothesise some data preprocessing occured not outline in the code or paper (Specific col names requred).
 * They reference a change point detection method by Kou et al. 2006.
-* Kou has a GitHub with R code that uses the average difference method.
+* Kou has a GitHub with R code that uses the average difference method ("avgDIFF") as referenced in the original paper.
 * We tried to use the rpy2 package to wrap an established R package for changepoint detection (cpop) into a class that we could pass to the acpd work 
 * We had problems getting this up and running (version issues and general use of the rpy2 package)
 
