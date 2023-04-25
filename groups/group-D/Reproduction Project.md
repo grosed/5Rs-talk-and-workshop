@@ -31,6 +31,8 @@ Paper Authors: Shogo Hayashi, Yoshinobu Kawahara, Hisashi Kashima
 * There is a package imported in acpd.py that imports a package we can't find (change_point_detection.cpd or change_point_detection).
 * They reference a change point detection method by Kou et al. 2006.
 * Kou has a GitHub with R code that uses the average difference method.
+* We tried to use the rpy2 package to wrap an established R package for changepoint detection (cpop) into a class that we could pass to the acpd work 
+* We had problems getting this up and running (version issues and general use of the rpy2 package)
 
 ## Reaching out to authors
 
