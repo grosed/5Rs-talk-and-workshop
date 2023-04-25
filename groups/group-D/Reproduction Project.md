@@ -15,6 +15,12 @@ Paper Authors: Shogo Hayashi, Yoshinobu Kawahara, Hisashi Kashima
 
 ## Code/programming progress
 
+### Data
+
+* In the paper, the authors link to a website where the data used in the paper is available for download.
+* Area 0450-09 on https://www.geospatial.jp/ckan/dataset/1976
+* We have successfully downloaded the data which can be found in the repository.
+
 ### Successes
 
 * Have found a Python file (acpd.py) with functions that seem to do what the paper does.
