@@ -28,7 +28,12 @@ Paper Authors: Shogo Hayashi, Yoshinobu Kawahara, Hisashi Kashima
 
 ### Current challenges
 
-* There is a package imported in acpd.py that imports a package we can't find (change_point_detection.cpd or change_point_detection).
+* There is a package imported in acpd.py that imports a package we can't find (change_point_detection.cpd or change_point_detection). Neither exist under pip.
+* The package "bayesianoptimisation" doesn't share a name or the required functions "plot_gp" with common bayesian optimisation packages which are typically imported as the same reference "bo", so it is probable this is also a custom package.
+* Utility package is found on pip, but does not share the same import handle of "Utility", and the common python_utils package does not have the required called function.
+* The class "ActiveChangePointDetection0" referenced a method that is not predefined in the class of bo. This should be shared from the "bayesianoptimisation" package previously called, but is unprovided by the author.
+* The class "ActiveChangePointDetection0" doesn't perform any of the methods outlined in the orginal paper.
+* The class "ActiveChangePointDetection" required the unprovided packages, and requires a specific data structure that does not follow the provided data. We hypothesise some data preprocessing occured not outline in the code or paper (Specific col names requred).
 * They reference a change point detection method by Kou et al. 2006.
 * Kou has a GitHub with R code that uses the average difference method.
 * We tried to use the rpy2 package to wrap an established R package for changepoint detection (cpop) into a class that we could pass to the acpd work 
