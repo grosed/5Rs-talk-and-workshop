@@ -21,9 +21,16 @@ Paper Authors: Shogo Hayashi, Yoshinobu Kawahara, Hisashi Kashima
 * They reference a change point detection method by Kou et al. 2006.
 * Kou has a GitHub with R code that uses the average difference method.
 
-### Actions taken
+### Actions taken to reach out to authors
 
-* The lead Author has left the university however has email on the repository (https://github.com/empor10alnho/acpd). Have tried to contact him by this method.
+* The lead author has left the university however has email on the repository (https://github.com/empor10alnho/acpd). Have tried to contact him by this method.
+
+> Dear Shogo Hayashi, I'm a researcher at Lancaster University and a team of us has been looking at your paper: Active Change-Point Detection
+We would like to replicate the results seen in this paper using the code from the repository: https://github.com/empor10alnho/acpd However, the Py file in this repository requires a package called "change_point_detection" that the file depends on. Can you point us toward where we can get this package to help further our work. Many thanks, Matthew Davison
+
+* The supervisor of the lead author still works at Kyoto Univeristy so we have emailed them to ask if they can help.
+
+> Dear Hisashi Kashima, I'm a researcher at Lancaster University and a team of us has been looking at the paper: Active Change-Point Detection. I am contacting you as I have not been able to contact the lead author for this paper. We have been trying to replicate the results seen in this paper and have found parts of the python code used to get results however we are missing some of the elements required for this code to run. Do you think you could help us with this? Many thanks, Matthew
 
 ***
 
